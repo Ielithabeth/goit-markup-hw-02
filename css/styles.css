@@ -185,6 +185,10 @@ body {
     font-style: normal;
 }
 
+.footer-link:hover, .footer-link-adress:hover {
+    color: var(--acent-color);
+}
+
 /*Portfolio*/
 .filter-btn {
     font-family: 'Roboto', sans-serif;
