@@ -1,0 +1,220 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', 'Oleo Script', 'Ralewaysans-serif', sans-serif;
+    color: #212121;
+    width: 1600px;
+}
+
+:root {
+    /*Colors*/
+    --acent-color:#2196F3;
+    --main-light-cl:#FFFFFF;
+    --main-dark-cl: #2F303A;
+
+    /*Text*/
+    --txt-cl: #212121;
+    --txt-light-cl: #757575;
+
+    /*Other*/
+    --shadow-style:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/*Header*/
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--txt-cl);
+    text-shadow: var(--shadow-style);
+    text-align: center;
+    font-style: normal;
+}
+
+.logo-span {
+    color: var(--acent-color);
+}
+
+/*Navigations*/
+.navigation-studio, .navigation-portfolio, .navigation-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--txt-cl);
+}
+
+.navigation-studio:hover, .navigation-portfolio:hover, .navigation-contacts:hover {
+    color: var(--acent-color);
+    text-shadow: var(--shadow-style);
+}
+
+/*Header contacts*/
+.item-email, .item-phone {
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--txt-light-cl);
+    font-style: normal;
+}
+
+.item-email:hover, .item-phone:hover {
+    color: var(--acent-color);
+}
+
+/*Hero*/
+.hero {
+    background-color: var(--main-dark-cl);
+    
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-light-cl);
+}
+
+.hero-btn {
+    color: var(--main-light-cl);
+    background-color: var(--acent-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    filter: none;
+    border: none;
+}
+
+.hero-btn:hover {
+    background-color: #188CE8;
+}
+
+/*Benefits*/
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;   
+}
+
+.benefits-txt {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;  
+    color: var(--txt-light-cl);
+}
+
+/*Service*/
+.service-title, .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*Team*/
+.team {
+    background-color: #F5F4FA;
+}
+
+.teammade {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.teammade-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--txt-light-cl);
+    
+}
+
+/*Footer*/
+.footer {
+    background-color: var(--main-dark-cl);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    color: var(--main-light-cl);
+    text-align: center;
+}
+
+.footer-link-adress {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-light-cl);
+    font-style: normal;
+}
+
+.footer-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+
+/*Portfolio*/
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    filter: none;
+    border: none;
+}
+
+.filter-btn:hover {
+    background-color: var(--acent-color);
+    filter: var(--shadow-style);
+    cursor: pointer;
+}
+
+.projects-title {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.projects-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--txt-light-cl);
+}
